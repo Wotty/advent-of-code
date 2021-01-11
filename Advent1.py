@@ -32,7 +32,7 @@ def advent1part2():
             for k in range(len(a) - 1):
 
                 if (a[count] + a[j] + a[k]) == 2020:
-                    print(a[count] , a[j] , a[k])
+                    print(a[count], a[j], a[k])
                     return a[count] * a[j] * a[k]
 
             # print(a[count], a[j])
