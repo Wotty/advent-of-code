@@ -32,7 +32,7 @@ def advent1part2():
         else:
             list[index] = int(i)
             index += 1
-    print(count)
+    print(count, list)
 
 
 def sum_of_list(l):
