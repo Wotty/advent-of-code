@@ -124,3 +124,4 @@ while scanner_coords:
     for p2 in scanner_coords:
         scanner_distances.add(manhattan_distance(p1, p2))
 print(f"Part 2: {max(scanner_distances)}")
+
